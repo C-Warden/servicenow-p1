@@ -1,0 +1,101 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 20pt;
+    margin: 0;
+    padding: 0;
+}
+
+
+#img img {
+    
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;       
+}
+
+.home{   
+    text-align: center;    
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    position: absolute;    
+}
+
+
+
+.exp,.cha {
+    border-radius: 5rem;    
+    padding: 4px 8px;      
+    margin: 2rem 1rem;
+    color: #ffffff;
+    width: 6rem; 
+    display: inline-block;      
+}
+
+.exp {
+    background-color: #EC441C;
+}
+
+.cha {
+    background-color: #1D1D1D;
+    border-color: #EC441C;
+}
+
+.cha:hover,
+.exp:hover {    
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.modal1, .modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content1,
+  .modal-content2 {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  ul {
+      text-align: left;
+      font-size: 0.8rem;
+  }
+  
+  /* The Close Button */
+  .close1 button,
+  .close2 button {    
+    color: #ffffff;
+    width: 3.5rem;
+    background-color: #EC441C;
+    border-radius: 5rem;    
+  }
+  
+  .close1 button:hover,
+  .close2 button:hover,
+  .close1 button:focus,
+  .close2 button:focus {
+    transform: scale(1.1);
+    cursor: pointer;    
+  }
